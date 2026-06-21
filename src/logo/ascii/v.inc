@@ -89,7 +89,7 @@ static const FFlogo V[] = {
     #ifdef FASTFETCH_DATATEXT_LOGO_VITA_OS
     // VitaOS
     {
-        .names = { "VitaOS" },
+        .names = { "VitaOS", "arch", "Arch", "arch-linux" },
         .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS,
         .colors = {
             FF_COLOR_FG_RED,
