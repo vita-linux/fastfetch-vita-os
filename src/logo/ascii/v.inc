@@ -92,7 +92,7 @@ static const FFlogo V[] = {
         .names = { "VitaOS" },
         .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS,
         .colors = {
-            FF_COLOR_FG_BLUE,
+            FF_COLOR_FG_RED,
             FF_COLOR_FG_DEFAULT,
         },
     },
