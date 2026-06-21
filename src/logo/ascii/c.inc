@@ -2,6 +2,8 @@
 #include "logo_builtin.h"
 #include "common/color.h"
 
+// Define your highly specific custom colors here
+// Format: \033[38;2;<Red>;<Green>;<Blue>m
 static const FFlogo C[] = {
     #ifdef FASTFETCH_DATATEXT_LOGO_CACHYOS
     // CachyOS

@@ -2,6 +2,10 @@
 #include "logo_builtin.h"
 #include "common/color.h"
 
+// Define your highly specific custom colors here
+// Format: \033[38;2;<Red>;<Green>;<Blue>m
+#define FF_COLOR_VITA_LIGHTBLUE1    "\033[38;2;0;188;221m"
+
 static const FFlogo V[] = {
     #ifdef FASTFETCH_DATATEXT_LOGO_VALHALLA
     // Valhalla
@@ -92,7 +96,7 @@ static const FFlogo V[] = {
         .names = { "VitaOS" },
         .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS,
         .colors = {
-            FF_COLOR_FG_GREEN,
+            FF_COLOR_VITA_LIGHTBLUE1,
             FF_COLOR_FG_DEFAULT,
         },
     },
@@ -108,7 +112,7 @@ static const FFlogo V[] = {
         },
     },
     #endif
-    #ifdef FASTFETCH_DATATEXT_LOGO_VITA_SMALL
+    #ifdef FASTFETCH_DATATEXT_LOGO_VITA_OS_SMALL
     // VitaOS
     {
         .names = { "VitaOS_S" },
