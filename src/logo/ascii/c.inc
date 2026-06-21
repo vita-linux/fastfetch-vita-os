@@ -9,8 +9,8 @@ static const FFlogo C[] = {
         .names = { "CachyOS" },
         .lines = FASTFETCH_DATATEXT_LOGO_CACHYOS,
         .colors = {
-            FF_COLOR_FG_RED,
-            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_BLUE,
+            FF_COLOR_FG_BLUE,
             FF_COLOR_FG_BLACK,
         },
         .colorKeys = FF_COLOR_FG_CYAN,
