@@ -86,6 +86,39 @@ static const FFlogo V[] = {
         },
     },
     #endif
+    #ifdef FASTFETCH_DATATEXT_LOGO_VITA_OS
+    // VitaOS
+    {
+        .names = { "VitaOS" },
+        .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS,
+        .colors = {
+            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_DEFAULT,
+        },
+    },
+    #endif
+    #ifdef FASTFETCH_DATATEXT_LOGO_VITA_OS_MEDIUM
+    // VitaOS
+    {
+        .names = { "VitaOS_M" },
+        .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS_MEDIUM,
+        .colors = {
+            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_DEFAULT,
+        },
+    },
+    #endif
+    #ifdef FASTFETCH_DATATEXT_LOGO_VITA_SMALL
+    // VitaOS
+    {
+        .names = { "VitaOS_S" },
+        .lines = FASTFETCH_DATATEXT_LOGO_VITA_OS_SMALL,
+        .colors = {
+            FF_COLOR_FG_GREEN,
+            FF_COLOR_FG_DEFAULT,
+        },
+    },
+    #endif
     #ifdef FASTFETCH_DATATEXT_LOGO_VNUX
     // Vnux
     {
